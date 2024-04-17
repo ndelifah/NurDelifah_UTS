@@ -30,7 +30,7 @@ public class LoginActivity extends AppCompatActivity {
         password = findViewById(R.id.etPassword);
         login = findViewById(R.id.loginButton);
 
-        usersList.add(new UserList("11111", "11111"));
+        usersList.add(new UserList("12250123957", "12345"));
         usersList.add(new UserList("22222", "22222"));
 
         login.setOnClickListener(new View.OnClickListener() {

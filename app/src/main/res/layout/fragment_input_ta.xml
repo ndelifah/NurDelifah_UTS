@@ -25,52 +25,52 @@
         android:layout_gravity="center"/>
 
     <com.google.android.material.textfield.TextInputEditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
         android:id="@+id/etJudulTA"
-        android:background="@drawable/custom_edittext"
-        android:drawablePadding="8dp"
-        android:hint="JUDUL TA"
-        android:textColorHint="@color/black"
-        android:textAlignment="center"
-        android:padding="8dp"
-        android:textStyle="bold"
-        android:inputType="number"
-        android:textColor="@color/black"
-        android:textColorHighlight="@color/cardview_dark_background"
-        android:layout_marginTop="20dp"/>
-
-    <com.google.android.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_edittext"
+        android:drawablePadding="8dp"
+        android:hint="Analisis Kinerja Machine Learning"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/etNamaMahasiswaTA"
-        android:background="@drawable/custom_edittext"
-        android:drawablePadding="8dp"
-        android:hint="NAMA"
-        android:textColorHint="@color/black"
-        android:textAlignment="center"
-        android:padding="8dp"
-        android:textStyle="bold"
-        android:inputType="number"
-        android:textColor="@color/black"
-        android:textColorHighlight="@color/cardview_dark_background"
-        android:layout_marginTop="20dp"/>
-
-    <com.google.android.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/etNIMMahasiswaTA"
+        android:layout_marginTop="20dp"
         android:background="@drawable/custom_edittext"
         android:drawablePadding="8dp"
-        android:hint="NIM"
-        android:textColorHint="@color/black"
-        android:textAlignment="center"
-        android:padding="8dp"
-        android:textStyle="bold"
+        android:hint="Nur Delifah"
         android:inputType="number"
+        android:padding="8dp"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textColorHighlight="@color/cardview_dark_background"
-        android:layout_marginTop="20dp"/>
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etNIMMahasiswaTA"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_edittext"
+        android:drawablePadding="8dp"
+        android:hint="12250123957"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
